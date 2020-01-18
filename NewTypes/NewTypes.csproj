@@ -1,16 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="src\" />
-    <Folder Include="src\NewTypes\" />
-    <Folder Include="src\NewTypes\Pets\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="src\NewTypes\NewTypes.xml" />
-  </ItemGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="src\" />
+        <Folder Include="src\NewTypes\" />
+        <Folder Include="src\NewTypes\Pets\" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Remove="src\NewTypes\NewTypes.xml" />
+        <None Remove="src\test\NewTypesTests\obj\NewTypesTests.csproj.nuget.g.targets" />
+        <None Remove="src\test\NewTypesTests\obj\NewTypesTests.csproj.nuget.cache" />
+        <None Remove="src\test\NewTypesTests\obj\NewTypesTests.csproj.nuget.dgspec.json" />
+        <None Remove="src\test\NewTypesTests\obj\NewTypesTests.csproj.nuget.g.props" />
+        <None Remove="src\test\NewTypesTests\obj\project.assets.json" />
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Remove="src\test\NewTypesTests\UnitTest1.cs" />
+    </ItemGroup>
 </Project>

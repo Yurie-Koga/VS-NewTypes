@@ -1,5 +1,5 @@
 ﻿using System;
-namespace NewTypes.src.NewTypes.Pets
+namespace Pets
 {
     public class Dog : IPet
     {

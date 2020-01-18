@@ -1,5 +1,5 @@
 ﻿using System;
-using NewTypes.src.NewTypes.Pets;
+using Pets;
 using System.Collections.Generic;
 
 namespace NewTypes
