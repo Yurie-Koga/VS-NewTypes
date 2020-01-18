@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\NewTypes\" />
+    <Folder Include="src\NewTypes\Pets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\NewTypes\NewTypes.xml" />
+  </ItemGroup>
 </Project>
